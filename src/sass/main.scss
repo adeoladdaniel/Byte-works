@@ -1,0 +1,215 @@
+// import abstract folder
+@import "./abstracts/variable";
+
+// import base folder
+@import "./base/base";
+@import "./base/typography";
+
+// import components folder
+@import "./components/heading";
+@import "./components/w-dropdown.scss";
+
+//import Layout Folder
+@import "./layout/skipcontent";
+// @import "./layout/navigation";
+// @import "./layout/footer";
+
+// import from utils folder
+@import "./utils/spacingHelpers.scss";
+
+// import pages folder
+ @import "./pages/sign-up.scss";
+ @import "./pages/login.scss";
+ @import "./pages/member.scss";
+
+
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@media screen and (max-width: 600px) {
+    .navbar-nav{
+
+        padding-left: 1px !important;
+      }
+  
+  
+  }
+  .navbar-nav{
+
+    padding-left: 13rem;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: black;
+    margin: 1rem;
+    font-weight: 1000;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:$primary-blue;
+}
+.navbar-dark .navbar-nav .nav-link:focus{
+    color:$primary-blue;
+}
+
+.navbar-expand-lg{
+
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+.coloring{
+
+    background-color: white;
+
+}
+.mind{
+
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+    background-color: $primary-blue;
+    z-index: 1;
+}
+
+@media screen and (max-width: 600px) {
+
+    .signup-header{
+
+        display: flex;
+        h3{
+            margin: 9rem -7rem 2rem 1rem;
+            position: absolute;
+            text-align: center;
+            font-weight: bolder;
+        }
+    }
+
+.memberr-card{
+    display: none;
+}
+
+
+
+.use {
+    color: $primary-blue;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+.login-text {
+    text-align: center;
+    color: $primary-blue;
+    margin-top: 5rem;
+}
+
+.proff-card {
+    background: white !important;
+    width: 23rem !important;
+    height: 24rem !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    margin: 1rem;
+}
+
+.mind{
+
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 1%;
+    height: 100%;
+    background-color: $primary-blue;
+    z-index: 1;
+}
+
+.dime{
+    position: absolute;
+    right: 0rem;
+    padding: 1rem;
+    margin-top: -6rem;
+
+    button{
+
+        padding: 0.5rem 2rem 0.5rem 2rem;
+        border: 1px solid $primary-blue;
+        border-radius: 5rem;
+        background-color: transparent;
+        color:$primary-blue;
+        margin-top: 6rem;
+    }
+}
+.icons{
+    display: none;
+}
+
+.member-card {
+    margin-top: 3rem;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    position: absolute;
+    width: 89%;
+    height: 248px;
+}
+.member-cardd {
+    margin-top: 30rem;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    width: 98%;
+    height: 50%;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.input-side input {
+    margin: 2rem 4rem 1rem 0rem;
+    width: 234px;
+    height: 37px;
+    padding: 1rem;
+}
+.edit {
+    padding: 6px 3rem 5px 3rem;
+    border: none;
+    margin: 1rem;
+    background: #016E99;
+    color: white;
+}
+.promotion {
+    margin-top: 3rem;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    position: absolute;
+    width: 90%;
+    height: 430px;
+    padding: 2rem;
+}
+  }
+
+  .navbar-dark .navbar-toggler {
+    color: white;
+    border-color: rgba(255, 255, 255, 0.1);
+    background-color: $primary-blue;
+  }
+
+  .proff-card{
+
+    background: white;
+    width: 17.1rem;
+    height: 20rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    h5{
+
+        padding: 1rem;
+    }
+  }
+
+  .inputy{
+      margin: 2rem 0rem 1rem 1rem;
+      
+  }
+  .buty{
+    padding: 0.1rem 1rem 0.1rem 1rem;
+    border: none;
+    color: white;
+    background-color: $primary-blue;
+  }

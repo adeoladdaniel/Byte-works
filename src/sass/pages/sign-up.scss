@@ -1,0 +1,80 @@
+.signup-header{
+
+    display: flex;
+    h3{
+        margin: 2rem 1rem 1rem 1rem;
+        position: absolute;
+        right: 10rem;
+        font-weight: bolder;
+    }
+}
+
+
+.signup-logo{
+    margin: 1rem 2rem 1rem 1rem;
+}
+
+.signup-img{
+
+    margin: 7rem 1rem 0rem 1rem;
+     width: 90%;
+}
+.signup-input{
+
+    margin: 2rem 1rem 1rem 4rem;
+
+    input{
+
+        border: none;
+        border-bottom: solid #D6D5D5;
+        width: 100%;
+        outline: none;
+    transition: all 500ms ease; 
+
+    
+
+    }
+    input:focus{
+        border: none;
+        border-bottom: solid $primary-blue;
+        width: 100%;
+        outline: none;
+        padding: 20px;
+
+    }
+    input:active{
+        border: none;
+        border-bottom: solid $primary-blue;
+        width: 100%;
+        outline: none;
+
+    }
+
+
+}
+.register{
+    padding: 1rem 3rem 1rem 3rem;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 3rem;
+    border: none;
+    background-color: $primary-blue;
+    color: white;
+    transition: all 500ms ease; 
+}
+.log{
+    color: $primary-blue;
+}
+.register:hover{
+    padding: 1rem 3rem 1rem 3rem;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 3rem;
+    border: solid 1px $primary-blue;
+    background-color: white;
+    color: $primary-blue;
+    
+}
+.register:focus{
+    outline: none;
+}

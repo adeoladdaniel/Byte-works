@@ -1,0 +1,68 @@
+.dime{
+    position: absolute;
+    right: -5rem;
+    padding: 1rem;
+    margin-top: -6rem;
+
+    button{
+
+        padding: 0.5rem 2rem 0.5rem 2rem;
+        border: 1px solid white;
+        border-radius: 5rem;
+        background-color: transparent;
+        color: white;
+        margin: 0.5rem;
+    }
+}
+
+.login-text{
+
+    text-align: center;
+    color: white;
+    margin-top: 5rem;
+}
+.use{
+
+    color: white;
+    font-weight: bold;
+    margin-left: 7rem ;
+    margin-top : 2rem ;
+    font-weight: bold;
+font-size: 20px;
+
+input{
+    width: 80%;
+height: 38px;
+    border-radius: 2px;
+    border:none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+input:focus{
+
+    outline: none;
+}
+
+}
+
+.log-but{
+    padding: 0.7rem 9rem;
+    border: none;
+    border-radius: 5rem;
+    background: black;
+    color: white;
+    margin-top: 3.5rem;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.log-but:hover{
+    padding: 0.7rem 9rem;
+    border: solid 4px $primary-blue;
+    border-radius: 5rem;
+    background:white;
+    color: $primary-blue;
+    margin-top: 3.5rem;
+}
